@@ -1,0 +1,61 @@
+<section>
+
+<div>
+<center>
+<table>
+<tr><td>
+<table>
+<form>
+<tr>
+<td><p style="color:red">Reservation</p></td></tr>
+<tr><td><p style="color:black">BOOK A TABLE</p></td></tr>
+<tr>
+<td>
+<input type="text" id="fname" name="fname" value="Your Email"></td></tr>
+<tr>
+<td>
+<input type="text" id="fname" name="fname" value="Persons"></td></tr>
+<tr>
+<td>
+<input type="text" id="fname" name="fname" value="mm/dd/yyyy"></td></tr>
+<tr>
+<td>
+<textarea name="comment" form="usrform">Message</textarea></td></tr>
+<tr>
+<td>
+<button type="submit">Send Now</button></td></tr>
+</form>
+</table>
+</td>
+
+<td>
+<center><img src="{{ section.settings.image  |  img_url: 'large' }}" alt=""/></center></td>
+</tr>
+
+</table>
+</center>
+</div>
+
+
+</section>
+<style>
+
+
+
+
+</style>
+
+{% schema %}
+ {
+    "name": "New last",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Upload Image"
+     }
+    ],
+
+    "presets": [{"name": "New last"}]
+}
+{% endschema %}

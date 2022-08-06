@@ -1,0 +1,38 @@
+<section>
+<table>
+<div>
+
+<h1><img src="{{ section.settings.image  |  img_url: 'large' }}" alt=""/ width=1300 height=300></h1>
+
+</div>
+</table>
+
+</section>
+<style>
+
+
+
+
+</style>
+
+{% schema %}
+ {
+    "name": "New BackImage",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Upload Image"
+     }
+    ],
+
+    "presets": [{"name": "New BackImage"}]
+}
+{% endschema %}
+ 
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

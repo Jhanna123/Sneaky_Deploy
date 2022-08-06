@@ -1,0 +1,60 @@
+<section>
+<table align="center">
+<tr>
+<td><div>
+<img src="{{ section.settings.image  |  img_url: 'large' }}" alt=""/>
+</td></td>
+<td><div>
+<img src="{{ section.settings.image1  |  img_url: 'large' }}" alt=""/>
+</td>
+</div>
+<td><div>
+<img src="{{ section.settings.image2  |  img_url: 'large' }}" alt=""/>
+</td>
+</div>
+<td><div>
+<img src="{{ section.settings.image3  |  img_url: 'large' }}" alt=""/>
+</td>
+</div>
+</table>
+</section>
+<style>
+</style>
+
+{% schema %}
+  
+  {
+  "name": "New Image",
+   "settings": [
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Upload Image"
+      },
+      {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Upload Image"
+      },
+      {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Upload Image"
+      },
+      {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Upload Image"
+      }
+    ],
+
+    "presets": [{"name": "New Image"}]
+  
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

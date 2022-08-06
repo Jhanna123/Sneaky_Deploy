@@ -161,45 +161,21 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/sneaky.png",
-              "image_width": 175,
-              "alignment": "center"
+              "image_width": 105,
+              "alignment": ""
             }
           },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          },
-          "footer-0": {
+          "b9bc2aac-e4a6-4e27-8428-ce50913e9397": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "eb3fc005-7ebb-4e30-9181-e8c75ae6b297": {
-            "type": "text",
-            "settings": {
-              "heading": "",
-              "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida risus aliquam integer tempor. Euismod vel magna pellentesque aliquet neque. Gravida gravida morbi hac velit mi quis.<\/p>"
-            }
-          },
-          "405b8f34-b802-4ff9-ae71-7c29cf57bafc": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
           "138f3974-ce7b-481f-984d-093b1049c621",
-          "footer-2",
-          "footer-0",
-          "eb3fc005-7ebb-4e30-9181-e8c75ae6b297",
-          "405b8f34-b802-4ff9-ae71-7c29cf57bafc"
+          "b9bc2aac-e4a6-4e27-8428-ce50913e9397"
         ],
         "settings": {
           "color_scheme": "accent-2",
